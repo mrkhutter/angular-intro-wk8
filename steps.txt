@@ -1,0 +1,12 @@
+1. create page with angular included empty app
+2. add input and bind value to div
+3. explain expressions
+4. using ng-init
+5. objects are the same
+6. create our app module, explain what a module is
+7. add a controller to your app
+8. refactor into separate files 
+9. ng-repeat
+10. use a directive
+11. change binding of input to affect $scope variable (name -> firstName)
+12. controller methods
