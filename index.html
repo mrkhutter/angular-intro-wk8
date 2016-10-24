@@ -2,20 +2,7 @@
 <html>
     <head>
         <title>Angular Intro Example</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
-        <script src="myApp.js"></script>
-        <script src="myCtrl.js"></script>
     </head>
     <body>
-        <div ng-app='myApp' ng-controller="myCtrl" ng-init="myCol='lightblue'">
-            <p>Name : <input type="text" ng-model="firstName"></p>
- 	        <h1 style="background-color: {{myCol}}">Hello {{firstName}}</h1>
-            <div>{{firstName + ' ' + lastName}}</div>
-            <ul>
-                <li ng-repeat="x in names">
-                {{ x }}
-                </li>
-            </ul>
-        </div>
     </body>
 </html>
